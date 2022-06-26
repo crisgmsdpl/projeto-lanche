@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+
+.barra-inicial{ 
+    background-color: red;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+  
+}
+.titulo{
+    background-color: red;
+    color: white;
+    font-size: 45px;
+    padding: 5px;
+   
+
+    
+
+}
+.subtitulo{
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    flex-direction: row; 
+}
+.subtitulo li a{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+li{
+    background-color: red;
+    color: white;
+    list-style: none;
+}
+ul{
+
+}
+.flex-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    border-radius: 100%;
+    margin-top: 10px;
+    padding: 25px;
+}
+.foto-hamburguer img{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.juncao-grupos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.grupo{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+p{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.grupo1 img{
+    display: flex;
+    width: 100%;
+    justify-content:flex-end ;
+    align-items:flex-end ;
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    padding: 1rem;
+     
+}
+.link:nth-child(1){
+    background-image: url(/googleplay-button.png);
+}
+.link2:nth-child(2){
+    background-image: url(/apple-button.png);
+}
